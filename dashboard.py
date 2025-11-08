@@ -17,7 +17,7 @@ st.title("Dashboard Situación académica universitaria")
 
 # Cargar datos
 datos = pd.read_excel(
-    r"C:\Users\jcama\Desktop\proyecto\utec-grupo-5-dashboard-desercion-estudiantil\data.xlsx",
+    r"data.xlsx",
     sheet_name="Sheet1",
 )
 
